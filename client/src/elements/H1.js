@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 
 export const H1 =  styled.h1`
-    /* font-family: ${ props => props.theme.fontFamily }; */
+    font-size: 48px;
+    line-height: 56px;
+    font-weight: 800;
 `;
 
