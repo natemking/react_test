@@ -31,3 +31,26 @@ export const FooterWrapper = styled.footer`
     text-align: center;
     padding-bottom: 20px;
 `
+export const BannerWrapper = styled.div`
+    height: 40px;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+    width: 375px;
+    border: 1px solid ${ props => props.theme.inputBorder };
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    overflow: hidden;
+    box-shadow: 2px 3px 5px ${ props => props.theme.inputBorder };
+`
+export const InnerBannerLeft = styled.div`
+    background: linear-gradient(to right, ${ props => props.theme.bgColor });
+    font-size: 1.2em;
+    padding: 10px;
+`
+export const InnerBannerRight = styled.div`
+    width: 90%;
+    padding-left: 10px;
+`

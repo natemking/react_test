@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { useHistory } from 'react-router-dom';
 import { theme } from '../themes';
 import { MainWrapper, H3, Line, SmallText, Anchor } from '../elements';
+import Banner from './Banner';
 import SignIn from './SignIn';
 import Footer from './Footer';
 
@@ -25,6 +26,8 @@ const Main = () => {
 
     return (
         <main style={{ width: '100%', position: 'relative'}}>
+           <Banner />
+
             <MainWrapper>
                 <H3 style={ page ? null : { lineHeight: '0px' }}>
                     {page ? 'Sign In' : 'Reset Password'}
