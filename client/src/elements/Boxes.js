@@ -13,7 +13,7 @@ export const EmptyBox = styled.div`
     position: absolute;
     height: ${ props => (props.top ? '50px' : '150px') };
     width: ${ props => (props.top ? '50px' : '150px') };
-    border: ${ props => (props.top ? '18px' : '30px') } solid ${ props => props.theme.primary };
+    border: ${ props => (props.top ? '18px' : '30px') } solid ${ props => props.theme.primaryText };
     border-radius: 4px;
     opacity: .5;
     top: ${ props => (props.top ? '-35px' : null) };

@@ -1,10 +1,10 @@
 import React from 'react';
 import { theme } from '../themes';
-import { AsideWrapper, LogoWrapper, H1, H3, H5, Aside, SolidBox, EmptyBox } from '../elements';
+import { AsideWrapper, LogoWrapper, H3, Aside, SolidBox, EmptyBox } from '../elements';
 
 
-const Primary = (props) => {
-    console.log(props);
+const Primary = () => {
+    
     return (
         <Aside theme={ theme }>
             
@@ -14,8 +14,8 @@ const Primary = (props) => {
                     <SolidBox />
                     <H3>ACME</H3>
                 </LogoWrapper>
-                <H1>Sign in and start saving your time today.</H1>
-                <H5>We provide 24/7 support with out highly dedicated professional team.</H5>
+                <H3>Sign in and start saving your time today.</H3>
+                <p>We provide 24/7 support with our highly dedicated professional team.</p>
             </AsideWrapper>
             <EmptyBox theme={theme} top={ false }/>
 
