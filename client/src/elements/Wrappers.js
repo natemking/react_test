@@ -17,14 +17,13 @@ export const LogoWrapper = styled.section`
 export const MainWrapper = styled.section`
     position: absolute;
     margin: auto;
-    width: 300px;
+    width: 350px;
     top: 25%;
     bottom: 20%;
     left: 0;
     right: 0;
     text-align: center;
 `
-
 export const FooterWrapper = styled.footer`
     position: absolute;
     width: 100%;

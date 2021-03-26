@@ -6,7 +6,7 @@ export const Button = styled.button`
     font-size: 14px;
     font-weight: 800;
     color: ${ props => props.theme.primaryText };
-    padding: 10px 0;
+    padding: 15px 0;
     border: none;
-    border-radius: 3px;
+    border-radius: 5px;
 `

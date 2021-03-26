@@ -4,9 +4,9 @@ export const Input = styled.input`
     font-family: inherit;
     font-size: 14px;
     font-weight: 300;
-    padding: 10px 20px;
+    padding: 15px 20px;
     margin-bottom: 15px;
     background-color: ${ props => props.theme.inputBG };
     border: 1px solid ${ props => props.theme.inputBorder };
-    border-radius: 3px;
+    border-radius: 5px;
 `

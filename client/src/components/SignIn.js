@@ -2,13 +2,19 @@ import React from 'react';
 import { theme } from '../themes'
 import { Form, Input, Button } from "../elements";
 
-const SignIn = () => {
+const SignIn = ({ state }) => {
+    console.log(state);
     return ( 
         <Form>
             <Input type='text' placeholder='Email' theme={ theme } />
-            <Input type='text' placeholder='Password' theme={ theme } />
+            <Input 
+                type='text' 
+                placeholder='Password' 
+                theme={ theme } 
+                style={ state ? { display: 'block' } : { display: 'none' }}
+                />
             <Button theme={ theme }>
-                SIGN IN
+                { state ? 'SIGN IN' : 'RESET PASSWORD' }
             </Button>
         </Form>
     );
