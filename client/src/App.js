@@ -13,6 +13,7 @@ function App() {
     
       <Wrapper>
         <GlobalStyle />
+        
         <Primary />
         <Router>
          

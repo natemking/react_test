@@ -9,5 +9,10 @@ export const Aside = styled.aside`
     
     @media(max-width: 768px){
         width: 100vw;
+        height: 30vh;
+    }
+
+    @media(max-width: 500px){
+        height: 50vh;
     }
 `;

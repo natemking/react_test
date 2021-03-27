@@ -2,9 +2,11 @@ import React from 'react';
 import { theme } from '../themes'
 import { BannerWrapper, InnerBannerLeft, InnerBannerRight , SmallText } from '../elements';
 
-const Banner = () => {
+const Banner = ({ banner }) => {
     return (  
-        <BannerWrapper theme={ theme }>
+        <BannerWrapper 
+            theme={ theme } 
+            style={ banner ? null : { right: '-3000px' }}>
             <InnerBannerLeft theme={ theme }>
                 👍
             </InnerBannerLeft>
