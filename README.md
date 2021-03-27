@@ -26,6 +26,7 @@ _Design Mockup_
 ### Final Product
 
 _Final Product Gif_
+
 ![final product gif](./client/public/react-test.gif)
 
 ---
